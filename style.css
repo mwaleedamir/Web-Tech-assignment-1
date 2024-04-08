@@ -1,0 +1,42 @@
+body{
+    background-color: aliceblue;
+}
+.nav{
+    /* position:; */
+    display: flex;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-right: 3%;
+    background-color: antiquewhite;
+}
+
+.name{
+    margin-left: 2%;
+    width: 100%;
+}
+
+.navbar-text{
+    padding-top: 0;
+}
+
+.headings{
+    text-decoration:double;
+}
+
+.assign{
+    margin-top: 0;
+}
+
+.info{
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+img{
+    border-radius: 200px;
+}
+
+/* .edu{
+    text;
+} */
