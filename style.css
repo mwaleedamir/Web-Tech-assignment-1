@@ -1,6 +1,35 @@
 body{
-    /* background-color: black; */
-    background-image: url("./images/flowers-276014_640.jpg");
+     background-color: rgb(66, 59, 59); 
+    /* background-image: url("./images/flowers-276014_640.jpg");  */
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        background-color: black;
+    }
+    .nav{
+        display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    background-color: antiquewhite;
+    }
+
+    .nav-img{
+        width: 130px !important;
+        height: 100PX !important;
+        border-radius: 200px;
+        margin-top: 20% !important; 
+        margin-left: 4%;
+    }
+
+}
+.nav-img{
+    border-radius: 200px;
+    margin-top: 3%;
+    margin-left: 4%;
+    width :129px ;
+    height :135px;
 }
 .nav{
     /* position:; */
@@ -36,9 +65,10 @@ li{
     /* margin-left: 10%; */
 }
 
-.skills{
-    /* margin-left: ; */
-}
+/* .skills{
+    /* margin-left: ; *
+} 
+*/
 
 .headings{
     text-decoration:double;
@@ -54,11 +84,7 @@ li{
     margin-right: 3%;
 }
 
-img{
-    border-radius: 200px;
-    margin-top: 15%;
-    margin-left: 15%;
-}
+
 
 .videos{
     display: flexbox;
